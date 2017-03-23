@@ -35,6 +35,7 @@ public class DrinkCategoryActivity extends ListActivity {
             Toast toast = Toast.makeText(this, "Database unavailable", Toast.LENGTH_SHORT);
             toast.show();
         }
+
     }
         @Override
         public void onDestroy(){

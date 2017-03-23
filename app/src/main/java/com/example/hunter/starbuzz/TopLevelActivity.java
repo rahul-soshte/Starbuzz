@@ -16,7 +16,6 @@ import android.view.View;
       super.onCreate(savedInstanceState);
       setContentView(R.layout.activity_top_level);
 //Create an OnItemClickListener
-
       AdapterView.OnItemClickListener itemClickListener=new AdapterView.OnItemClickListener(){
           @Override
           public void onItemClick(AdapterView<?> listView, View v, int position, long id) {

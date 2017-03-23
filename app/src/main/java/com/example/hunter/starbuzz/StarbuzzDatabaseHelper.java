@@ -1,6 +1,5 @@
 package com.example.hunter.starbuzz;
 
-
         import android.content.ContentValues;
         import android.content.Context;
         import android.database.sqlite.SQLiteDatabase;
@@ -49,5 +48,6 @@ class StarbuzzDatabaseHelper extends SQLiteOpenHelper {
         drinkValues.put("DESCRIPTION", description);
         drinkValues.put("IMAGE_RESOURCE_ID", resourceId);
         db.insert("DRINK", null, drinkValues);
+
     }
 }
